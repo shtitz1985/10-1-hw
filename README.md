@@ -7,7 +7,7 @@
 *Приложите скриншот авторизации в админке. Приложите текст использованных команд в GitHub.*  
 
 ### Ответ:  
-![pic1](1.PNG)  
+![pic1](https://github.com/shtitz1985/9-02-hw/blob/main/1.png)  
 
 ```
 wget https://repo.zabbix.com/zabbix/6.4/debian/pool/main/z/zabbix-release/zabbix-release_6.4-1+debian11_all.deb
@@ -33,11 +33,11 @@ systemctl enable zabbix-server zabbix-agent apache2
 
 ### Ответ:  
 
-![pic2](2.PNG)  
-![pic4](5.PNG)  
-![pic5](6.PNG)  
-![pic3](3.PNG)  
-![pic6](4.PNG)  
+![pic2](https://github.com/shtitz1985/9-02-hw/blob/main/2.png)  
+![pic3](https://github.com/shtitz1985/9-02-hw/blob/main/3.png)  
+![pic4](https://github.com/shtitz1985/9-02-hw/blob/main/4.png)  
+![pic5](https://github.com/shtitz1985/9-02-hw/blob/main/5.png)  
+![pic6](https://github.com/shtitz1985/9-02-hw/blob/main/6.png)  
 
 ```
 apt install zabbix-agent
