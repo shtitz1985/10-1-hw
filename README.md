@@ -7,7 +7,7 @@
 
 ### Ответ:  
 
-![Pic1](https://github.com/shtitz1985/9-03-hw/blob/main/2.png)
+![Pic1](https://github.com/shtitz1985/9-03-hw/blob/main/1.png)
 
 ---  
 
@@ -31,7 +31,7 @@
 
 ### Ответ:  
 
-![Pic2](https://github.com/shtitz1985/9-03-hw/blob/main/1.png)  
+![Pic2](https://github.com/shtitz1985/9-03-hw/blob/main/2.png)  
 
 ---  
 
