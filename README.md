@@ -7,7 +7,7 @@
 
 ### Ответ:  
 
-![Pic1](1.PNG)  
+![Pic1](https://github.com/shtitz1985/9-03-hw/blob/main/1.png)  
 
 ---
 
@@ -19,7 +19,7 @@
 
 ### Ответ:
 
-![Pic2](2.PNG)  
+![Pic2](https://github.com/shtitz1985/9-03-hw/blob/main/2.png)  
 
 ---
 
@@ -31,8 +31,8 @@
 
 ### Ответ:  
 
-![Pic3](3.PNG)  
-![Pic6](6.png)  
+![Pic3](https://github.com/shtitz1985/9-03-hw/blob/main/3.png)  
+![Pic6](https://github.com/shtitz1985/9-03-hw/blob/main/4.png)  
 
 ---
 
@@ -44,16 +44,6 @@
 
 ### Ответ:  
 
-![Pic4](4.png)  
+![Pic4](https://github.com/shtitz1985/9-03-hw/blob/main/5.png)  
 
 ---
-
-### Задание 5*
-
-Интегрируйте Grafana и Prometheus.
-
-*Приложите скриншот дашборда (ID:11074) с поступающими туда данными из Node Exporter.*
-
-### Ответ:  
-
-![Pic5](5.PNG)  
