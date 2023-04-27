@@ -1,49 +1,54 @@
-# Домашнее задание к занятию "`Система мониторинга Prometheus`" - `Зозуля Максим`
+# Домашнее задание к занятию "`Keepalived/vrrp`" - `Зозуля Максим`
 ### Задание 1
 
-Установите Prometheus.
+Разверните топологию из лекции и выполните установку и настройку сервиса Keepalived.
 
-*Приведите скриншот systemctl status prometheus, где будет написано: prometheus.service — Prometheus Service Netology Lesson 9.4 — [Ваши ФИО].*  
+```
+vrrp_instance test {
+
+state "name_mode"
+
+interface "name_interface"
+
+virtual_router_id "number id"
+
+priority "number priority"
+
+advert_int "number advert"
+
+authentication {
+
+auth_type "auth type"
+
+auth_pass "password"
+
+}
+
+unicast_peer {
+
+"ip address host"
+
+}
+
+virtual_ipaddress {
+
+"ip address host" dev "interface" label "interface":vip
+
+}
+
+}
+```
+
+*Пришлите скриншот рабочей конфигурации и состояния сервиса для каждого нода.*  
 
 ### Ответ:  
 
-![Pic1](https://github.com/shtitz1985/9-03-hw/blob/main/1.png)  
+![Pic1](1.png)  
 
----
+![Pic2](2.png)  
 
-### Задание 2
+![Pic3](3.png) 
 
-Установите Node Exporter.
-
-*Приведите скриншот systemctl status node-exporter, где будет написано: node-exporter.service — Node Exporter Netology Lesson 9.4 — [Ваши ФИО].*
-
-### Ответ:
-
-![Pic2](https://github.com/shtitz1985/9-03-hw/blob/main/2.png)  
-
----
-
-### Задание 3
-
-Подключите Node Exporter к серверу Prometheus.
-
-*Приложите скриншот конфига из интерфейса Prometheus вкладки Status > Configuration. Приложите скриншот из интерфейса Prometheus вкладки Status > Targets, чтобы было видно минимум два эндпоинта.*  
-
-### Ответ:  
-
-![Pic3](https://github.com/shtitz1985/9-03-hw/blob/main/3.png)  
-![Pic6](https://github.com/shtitz1985/9-03-hw/blob/main/4.png)  
-
----
-
-### Задание 4*
-
-Установите Grafana.
-
-*Приложите скриншот левого нижнего угла интерфейса, чтобы при наведении на иконку пользователя были видны ваши ФИО.*  
-
-### Ответ:  
-
-![Pic4](https://github.com/shtitz1985/9-03-hw/blob/main/5.png)  
+![Pic4](4.png)
 
 ---
